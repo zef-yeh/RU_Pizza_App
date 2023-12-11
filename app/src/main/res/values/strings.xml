@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">CS214Project5</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris volutpat, dolor id
+        interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus dui nec risus. Maecenas non sodales
+        nisi, vel dictum dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+        himenaeos. Suspendisse blandit eleifend diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet,
+        imperdiet nisl a, ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus egestas, est a
+        condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed neque. Morbi tellus erat, dapibus ut
+        sem a, iaculis tincidunt dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur et eros
+        porttitor, ultricies urna vitae, molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl
+        nec dolor bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit amet auctor at,
+        mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel, molestie quam. Fusce blandit tincidunt
+        nulla, quis sollicitudin libero facilisis et. Integer interdum nunc ligula, et fermentum metus hendrerit id.
+        Vestibulum lectus felis, dictum at lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse
+        sodales nunc ligula, in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh. Morbi laoreet, tortor
+        sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui non lorem. Nam mollis ipsum quis auctor
+        varius. Quisque elementum eu libero sed commodo. In eros nisl, imperdiet vel imperdiet et, scelerisque a mauris.
+        Pellentesque varius ex nunc, quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non
+        viverra ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a placerat
+        diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+        egestas. In volutpat arcu ut felis sagittis, in finibus massa gravida. Pellentesque id tellus orci. Integer
+        dictum, lorem sed efficitur ullamcorper, libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec
+        maximus ullamcorper sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus vestibulum. Fusce
+        dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="rupizzeria">RUPizzeria</string>
+    <string name="speciality_pizzas">Speciality Pizzas</string>
+    <string name="build_your_own_pizza">Build Your Own Pizza</string>
+    <string name="current_order">Current Order</string>
+    <string name="store_orders">Store Orders</string>
+    <string name="title_activity_specialty_pizza">SpecialtyPizza</string>
+
+    <string name="quantity">Quantity: </string>
+    <string name="extra_cheese">Extra Cheese</string>
+    <string name="extra_sauce">Extra Sauce</string>
+    <string name="sauce">Sauce: </string>
+    <string name="selected_pizza_none">Selected Pizza: None: </string>
+
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+
+    <string name="total">Total $</string>
+
+    <string name="back">Back</string>
+    <string name="add_to_order">Add To Order</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="order_number">Order Number #</string>
+    <string name="order_total">Order Total $</string>
+    <string name="subtotal">Subtotal $</string>
+    <string name="sales_tax">Sales Tax $</string>
+    <string name="remove_pizza">Remove Pizza</string>
+    <string name="place_order">Place Order</string>
+
+    <string name="name">name</string>
+    <string name="toppings">toppings</string>
+    <string name="prices">prices</string>
+
+    <string name="click_to_add">Click To Add/Remove Toppings! (Min 3, Max 7)</string>
+
+    
+    <string-array name="specialty_pizzas">
+        <item>Deluxe</item>
+        <item>Supreme</item>
+        <item>Meatzza</item>
+        <item>Seafood</item>
+        <item>Pepperoni</item>
+        <item>Stronteroni</item>
+        <item>Hawaiian</item>
+        <item>Gracon</item>
+        <item>Stracon</item>
+        <item>Strimp</item>
+    </string-array>
+    <string-array name="description">
+        <item>Toppings: Sausage, Pepperoni, Green Pepper, Onion, Mushroom</item>
+        <item>Toppings: Sausage, Pepperoni, Ham, Green Pepper, Onion, Black Olive, Mushroom</item>
+        <item>Toppings: Sausage, Pepperoni, Beef, Ham</item>
+        <item>Toppings: Shrimp, Squid, Crab Meats</item>
+        <item>Toppings: Pepperoni</item>
+        <item>Toppings: Strontrium-90, Pepperoni</item>
+        <item>Toppings: Pineapple, Ham</item>
+        <item>Toppings: Green Peppers, Bacon</item>
+        <item>Toppings: Strontium-90, Bacon</item>
+        <item>Toppings: Strontium-90, Shrimp</item>
+    </string-array>
+    <string-array name="prices">
+        <item>Small: 14.99 Medium: 16.99 Large 18.99 </item>
+        <item>Small: 15.99 Medium: 17.99 Large 19.99 </item>
+        <item>Small: 16.99 Medium: 18.99 Large 20.99 </item>
+        <item>Small: 17.99 Medium: 19.99 Large 21.99 </item>
+        <item>Small: 10.99 Medium: 12.99 Large 14.99 </item>
+        <item>Small: 1001.99 Medium: 1003.99 Large 1005.99 </item>
+        <item>Small: 14.99; Medium: 16.99 Large 18.99 </item>
+        <item>Small: 11.99 Medium: 13.99 Large 15.99 </item>
+        <item>Small: 200.99; Medium: 202.99 Large 204.99 </item>
+        <item>Small: 301.99; Medium: 303.99 Large 305.99 </item>
+
+    </string-array>
+</resources>
