@@ -98,15 +98,7 @@ public class StoreOrders {
 
         // Display all orders and their details
         List<Order> allOrders = storeOrders.getAllOrders();
-        for (Order order : allOrders) {
-            System.out.println("Order Number: " + order.getOrderNumber());
-            System.out.println("Pizzas in the Order:");
-            for (Pizza pizza : order.getPizzas()) {
-                System.out.println("- " + pizza.getClass().getSimpleName() + ": $" + pizza.price());
-            }
-            System.out.println("Total Order Price: $" + order.calculateTotal());
-            System.out.println("-------------");
-        }
+
     }
 
 
