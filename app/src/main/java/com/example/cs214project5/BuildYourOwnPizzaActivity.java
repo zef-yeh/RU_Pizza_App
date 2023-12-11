@@ -152,7 +152,6 @@ public class BuildYourOwnPizzaActivity extends AppCompatActivity {
             toppingList.add(addedToppingListView.getAdapter().getItem(i).toString());
         }
         buildPizza.toppings = new ArrayList<>(convertToToppings(toppingList));
-        System.out.println(buildPizza.toppings);
         if (selectedRadioButtonId == R.id.smallPizzaButton) {
             buildPizza.size = Size.SMALL;
         } else if (selectedRadioButtonId == R.id.mediumPizzaButton) {
